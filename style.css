@@ -1,0 +1,23 @@
+body {
+    background-image:url(renga.jpeg);
+}
+
+.logo {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'conanFont';
+    src: url('コナン明朝.woff') format('woff');
+}
+
+h1 {
+    font-family: 'conanFont';
+    color: rgb(228, 237, 255);
+    font-size: 128px;
+    text-shadow: 2px 2px 4px cornflowerblue;
+}
+
+span {
+    font-size: 64px;
+}
