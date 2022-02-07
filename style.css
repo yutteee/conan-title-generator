@@ -4,6 +4,10 @@ body {
 
 .logo {
     text-align: center;
+    font-family: 'conanFont';
+    color: rgb(228, 232, 240);
+    font-size: 80px;
+    text-shadow: 2px 2px 4px rgb(18, 95, 236);
 }
 
 @font-face {
@@ -11,13 +15,11 @@ body {
     src: url('コナン明朝.woff') format('woff');
 }
 
-h1 {
-    font-family: 'conanFont';
-    color: rgb(228, 237, 255);
-    font-size: 128px;
-    text-shadow: 2px 2px 4px cornflowerblue;
+p {
+    margin-top: -16px;
+    height: 140px;
 }
 
-span {
-    font-size: 64px;
+button {
+
 }
