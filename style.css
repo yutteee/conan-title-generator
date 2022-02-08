@@ -1,13 +1,19 @@
-body {
-    background-image:url(renga.jpeg);
-}
-
 .logo {
+    background-image:url(renga.jpeg);
     text-align: center;
     font-family: 'conanFont';
     color: rgb(228, 232, 240);
     font-size: 80px;
     text-shadow: 2px 2px 4px rgb(18, 95, 236);
+    height: 358px;
+}
+
+span {
+    font-size: 60px;
+}
+
+img {
+    margin-top: 24px;
 }
 
 @font-face {
@@ -15,11 +21,41 @@ body {
     src: url('コナン明朝.woff') format('woff');
 }
 
-p {
+.title {
     margin-top: -16px;
     height: 140px;
 }
 
-button {
+.body {
+    text-align: center;
+    background-color: dimgrey;
+    height: 500px;
+    padding-top: 16px;
+}
 
+#button {
+    margin: 32px auto 64px auto;
+    color: black;
+    background-color: rgb(235, 231, 231);
+    height: 32px;
+    width: 96px;
+    line-height: 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+#button:hover {
+    background-color: white;
+    transition: 0.2s;
+}
+
+.text {
+    color: white;
+    letter-spacing: 2.5pt;
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
