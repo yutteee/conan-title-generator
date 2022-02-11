@@ -34,7 +34,7 @@ img {
 }
 
 #button {
-    margin: 32px auto 64px auto;
+    margin: 48px auto 64px auto;
     color: black;
     background-color: rgb(235, 231, 231);
     height: 32px;
@@ -42,12 +42,12 @@ img {
     line-height: 32px;
     border-radius: 4px;
     font-size: 16px;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 #button:hover {
     background-color: white;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .text {
@@ -55,7 +55,51 @@ img {
     letter-spacing: 2.5pt;
 }
 
+.share {
+    padding-top: 64px;
+}
+
+.twitter {
+    display: inline-block;
+    background-color: #00acee;
+    line-height: 32px;
+    height: 32px;
+    width: 96px;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    transition: 0.5s;
+}
+
+.twitter:hover {
+    background-color: #00b7ff;
+    transition: 0.5s;
+}
+
 footer {
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 33%;
+}
+
+.icon {
+    text-decoration: none;
+    color: white;
+    width: 15%;
+    font-size: 1.5em;
+}
+
+a {
+    color: #fff;
+}
+
+li {
+    float: left;
+    padding-left: 16px;
+    list-style: none;
 }
