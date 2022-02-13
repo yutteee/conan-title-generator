@@ -221,4 +221,15 @@
         afterElement.innerHTML = afterList[afterNo].after;
         afterRubyElement.innerHTML = afterList[afterNo].afterRuby;
     })
+
+    document.getElementById('shareTwitter').addEventListener('click', () => {
+        let beforeTitle = document.getElementById('before').innerHTML;
+        let afterTitle = document.getElementById('after').innerHTML;
+        let afterTitleRuby = document.getElementById('afterRuby').innerHTML;
+
+        let tweetContent = ("劇場版名探偵コナン " + beforeTitle + "の" + afterTitle)
+        let url = "file:///Users/nakamurayusaku/Desktop/%E3%82%B3%E3%83%8A%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%82%B7%E3%82%99%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/index.html"
+
+        window.open().location.href = ("https://twitter.com/share?url=" + url + "&text=" + tweetContent + "&count=none&lang=ja");
+    })
 }
