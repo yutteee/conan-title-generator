@@ -216,20 +216,19 @@
         const afterElement = document.getElementById('after');
         const afterRubyElement = document.getElementById('afterRuby');
 
-        beforeElement.innerHTML = beforeList[beforeNo].before;
-        beforeRubyElement.innerHTML = beforeList[beforeNo].beforeRuby;
-        afterElement.innerHTML = afterList[afterNo].after;
-        afterRubyElement.innerHTML = afterList[afterNo].afterRuby;
+        beforeElement.textContent = beforeList[beforeNo].before;
+        beforeRubyElement.textContent = beforeList[beforeNo].beforeRuby;
+        afterElement.textContent = afterList[afterNo].after;
+        afterRubyElement.textContent = afterList[afterNo].afterRuby;
     })
 
     document.getElementById('shareTwitter').addEventListener('click', () => {
-        let beforeTitle = document.getElementById('before').innerHTML;
-        let afterTitle = document.getElementById('after').innerHTML;
-        let afterTitleRuby = document.getElementById('afterRuby').innerHTML;
+        const beforeTitle = document.getElementById('before').textContent;
+        const afterTitle = document.getElementById('after').textContent;
 
-        let tweetContent = ("劇場版名探偵コナン " + beforeTitle + "の" + afterTitle)
-        let url = "file:///Users/nakamurayusaku/Desktop/%E3%82%B3%E3%83%8A%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%82%B7%E3%82%99%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/index.html"
+        const tweetContent = ("劇場版名探偵コナン " + beforeTitle + "の" + afterTitle)
+        const url = "https://qiita.com/TK-C/items/c64ca54b634b0cae0059"
 
-        window.open().location.href = ("https://twitter.com/share?url=" + url + "&text=" + tweetContent + "&count=none&lang=ja");
+        window.location.href = ("https://twitter.com/share?url=" + url + "&text=" + tweetContent + "&count=none&lang=ja");
     })
 }

@@ -84,6 +84,10 @@ img {
     padding-top: 64px;
 }
 
+button {
+    border: 0;
+}
+
 .twitter {
     position: relative;
     overflow: hidden;
