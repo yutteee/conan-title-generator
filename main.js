@@ -1,232 +1,568 @@
 {
     'use strict'
 
-    const beforeList = [
+    const formerList = [
         {
-            before: "時計じかけ",
-            beforeRuby: ""
+          "former": "時計じかけ"
         },
         {
-            before: "14番目",
-            beforeRuby: ""
+          "former": "14番目"
         },
         {
-            before: "世紀末",
-            beforeRuby: ""
+          "former": "世紀末"
         },
         {
-            before: "瞳の中",
-            beforeRuby: ""
+          "former": "瞳の中"
         },
         {
-            before: "天国へ",
-            beforeRuby: ""
+          "former": "天国へ"
         },
         {
-            before: "ベイカー街",
-            beforeRuby: "ベイカーストリート"
+          "former": "ベイカー街"
         },
         {
-            before: "迷宮",
-            beforeRuby: ""
+          "former": "迷宮"
         },
         {
-            before: "銀翼",
-            beforeRuby: ""
+          "former": "銀翼"
         },
         {
-            before: "水平線上",
-            beforeRuby: ""
+          "former": "水平線上"
         },
         {
-            before: "探偵たち",
-            beforeRuby: ""
+          "former": "探偵たち"
         },
         {
-            before: "紺碧",
-            beforeRuby: ""
+          "former": "紺碧"
         },
         {
-            before: "旋律",
-            beforeRuby: ""
+          "former": "旋律"
         },
         {
-            before: "漆黒",
-            beforeRuby: ""
+          "former": "漆黒"
         },
         {
-            before: "天空",
-            beforeRuby: ""
+          "former": "天空"
         },
         {
-            before: "沈黙",
-            beforeRuby: ""
+          "former": "沈黙"
         },
         {
-            before: "11人目",
-            beforeRuby: ""
+          "former": "11人目"
         },
         {
-            before: "絶海",
-            beforeRuby: ""
+          "former": "絶海"
         },
         {
-            before: "異次元",
-            beforeRuby: ""
+          "former": "異次元"
         },
         {
-            before: "業火",
-            beforeRuby: ""
+          "former": "業火"
         },
         {
-            before: "純黒",
-            beforeRuby: ""
+          "former": "純黒"
         },
         {
-            before: "から紅",
-            beforeRuby: ""
+          "former": "から紅"
         },
         {
-            before: "ゼロ",
-            beforeRuby: ""
+          "former": "ゼロ"
         },
         {
-            before: "紺青",
-            beforeRuby: ""
+          "former": "紺青"
         },
         {
-            before: "緋色",
-            beforeRuby: ""
+          "former": "緋色"
         },
         {
-            before: "ハロウィン",
-            beforeRuby: ""
+          "former": "ハロウィン"
         },
-    ]
+        {
+          "former": "群青"
+        },
+        {
+          "former": "七彩"
+        },
+        {
+          "former": "破砕"
+        },
+        {
+          "former": "新緑"
+        },
+        {
+          "former": "正鵠"
+        },
+        {
+          "former": "銀世界"
+        },
+        {
+          "former": "瑠璃色"
+        },
+        {
+          "former": "虹"
+        },
+        {
+          "former": "紅蓮"
+        },
+        {
+          "former": "断罪"
+        },
+        {
+          "former": "晴天"
+        },
+        {
+          "former": "刹那"
+        },
+        {
+          "former": "惨劇"
+        },
+        {
+          "former": "邂逅"
+        },
+        {
+          "former": "怨敵"
+        },
+        {
+          "former": "偽り"
+        },
+        {
+          "former": "亡霊達"
+        },
+        {
+          "former": "禁断"
+        },
+        {
+          "former": "戦慄"
+        },
+        {
+          "former": "薄紅"
+        },
+        {
+          "former": "青"
+        },
+        {
+          "former": "鋼"
+        },
+        {
+          "former": "半世紀へ"
+        },
+        {
+          "former": "亡國"
+        },
+        {
+          "former": "隻眼"
+        },
+        {
+          "former": "追憶"
+        },
+        {
+          "former": "深淵"
+        },
+        {
+          "former": "白昼"
+        },
+        {
+          "former": "口先"
+        },
+        {
+          "former": "冥府"
+        },
+        {
+          "former": "星空"
+        },
+        {
+          "former": "宵"
+        },
+        {
+          "former": "暁"
+        },
+        {
+          "former": "英雄"
+        },
+        {
+          "former": "奈落"
+        },
+        {
+          "former": "眠り"
+        },
+        {
+          "former": "月"
+        },
+        {
+          "former": "大地"
+        },
+        {
+          "former": "黒布"
+        },
+        {
+          "former": "不変"
+        },
+        {
+          "former": "永劫"
+        },
+        {
+          "former": "黄昏"
+        },
+        {
+          "former": "絶世"
+        },
+        {
+          "former": "ヘーラクレース"
+        },
+        {
+          "former": "最期"
+        },
+        {
+          "former": "預言者"
+        },
+        {
+          "former": "灼熱"
+        }
+      ]
 
-    const afterList = [
+    const latterList = [
         {
-            after: "摩天楼",
-            afterRuby: ""
+          "latter": "摩天楼"
         },
         {
-            after: "標的",
-            afterRuby: ""
+          "latter": "標的"
         },
         {
-            after: "魔術師",
-            afterRuby: ""
+          "latter": "魔術師"
         },
         {
-            after: "暗殺者",
-            afterRuby: ""
+          "latter": "暗殺者"
         },
         {
-            after: "カウントダウン",
-            afterRuby: ""
+          "latter": "カウントダウン"
         },
         {
-            after: "亡霊",
-            afterRuby: ""
+          "latter": "亡霊"
         },
         {
-            after: "十字路",
-            afterRuby: "クロスロード"
+          "latter": "十字路",
+          "latterRuby": "クロスロード"
         },
         {
-            after: "奇術師",
-            afterRuby: "マジシャン"
+          "latter": "奇術師",
+          "latterRuby": "マジシャン"
         },
         {
-            after: "陰謀",
-            afterRuby: "ストラテジー"
+          "latter": "陰謀",
+          "latterRuby": "ストラテジー"
         },
         {
-            after: "鎮魂歌",
-            afterRuby: "レクイエム"
+          "latter": "鎮魂歌",
+          "latterRuby": "レクイエム"
         },
         {
-            after: "棺",
-            afterRuby: "ジョリー・ロジャー"
+          "latter": "棺",
+          "latterRuby": "ジョリー・ロジャー"
         },
         {
-            after: "楽譜",
-            afterRuby: "フルスコア"
+          "latter": "楽譜",
+          "latterRuby": "フルスコア"
         },
         {
-            after: "追跡者",
-            afterRuby: "チェイサー"
+          "latter": "追跡者",
+          "latterRuby": "チェイサー"
         },
         {
-            after: "難破船",
-            afterRuby: "ロストシップ"
+          "latter": "難破船",
+          "latterRuby": "ロスト・シップ"
         },
         {
-            after: "15分",
-            afterRuby: "クォーター"
+          "latter": "15分",
+          "latterRuby": "クォーター"
         },
         {
-            after: "ストライカー",
-            afterRuby: ""
+          "latter": "ストライカー"
         },
         {
-            after: "探偵",
-            afterRuby: "プライベート・アイ"
+          "latter": "探偵",
+          "latterRuby": "プライベート・アイ"
         },
         {
-            after: "狙撃手",
-            afterRuby: "スナイパー"
+          "latter": "狙撃手",
+          "latterRuby": "スナイパー"
         },
         {
-            after: "向日葵",
-            afterRuby: ""
+          "latter": "向日葵"
         },
         {
-            after: "悪夢",
-            afterRuby: "ナイトメア"
+          "latter": "悪夢",
+          "latterRuby": "ナイトメア"
         },
         {
-            after: "恋歌",
-            afterRuby: "ラブレター"
+          "latter": "恋歌",
+          "latterRuby": "ラブレター"
         },
         {
-            after: "執行人",
-            afterRuby: ""
+          "latter": "執行人"
         },
         {
-            after: "拳",
-            afterRuby: "フィスト"
+          "latter": "拳",
+          "latterRuby": "フィスト"
         },
         {
-            after: "弾丸",
-            afterRuby: ""
+          "latter": "弾丸"
         },
         {
-            after: "花嫁",
-            afterRuby: ""
+          "latter": "花嫁"
         },
-    ]
+        {
+          "latter": "夢物語",
+          "latterRuby": "ファンタジー"
+        },
+        {
+          "latter": "協奏曲",
+          "latterRuby": "コンチェルト"
+        },
+        {
+          "latter": "惨劇",
+          "latterRuby": "トラジティー"
+        },
+        {
+          "latter": "探求者",
+          "latterRuby": "サッチャー"
+        },
+        {
+          "latter": "引鉄",
+          "latterRuby": "トリガー"
+        },
+        {
+          "latter": "片時雨",
+          "latterRuby": "かたしぐれ"
+        },
+        {
+          "latter": "道標",
+          "latterRuby": "みちしるべ"
+        },
+        {
+          "latter": "明星",
+          "latterRuby": "ヴェスパー"
+        },
+        {
+          "latter": "蜃気楼",
+          "latterRuby": "ミラージュ"
+        },
+        {
+          "latter": "寝台特急",
+          "latterRuby": "エクスプレス"
+        },
+        {
+          "latter": "幻想",
+          "latterRuby": "イリュージョン"
+        },
+        {
+          "latter": "紋章",
+          "latterRuby": "シンボル"
+        },
+        {
+          "latter": "霹靂"
+        },
+        {
+          "latter": "刺客",
+          "latterRuby": "ラストオーダー"
+        },
+        {
+          "latter": "残響",
+          "latterRuby": "リフレイン"
+        },
+        {
+          "latter": "戦騎姫",
+          "latterRuby": "ジャンヌダルク"
+        },
+        {
+          "latter": "道化師",
+          "latterRuby": "ピエロ"
+        },
+        {
+          "latter": "輪舞曲",
+          "latterRuby": "ロンド"
+        },
+        {
+          "latter": "炎恋歌",
+          "latterRuby": "ラブソング"
+        },
+        {
+          "latter": "生贄",
+          "latterRuby": "サクリファイス"
+        },
+        {
+          "latter": "王国",
+          "latterRuby": "キングダム"
+        },
+        {
+          "latter": "大聖堂",
+          "latterRuby": "チャペル"
+        },
+        {
+          "latter": "高速道路",
+          "latterRuby": "ハイウェイ"
+        },
+        {
+          "latter": "聖域",
+          "latterRuby": "サンクチュアリ"
+        },
+        {
+          "latter": "陰謀",
+          "latterRuby": "プロット"
+        },
+        {
+          "latter": "秋桜",
+          "latterRuby": "コスモス"
+        },
+        {
+          "latter": "エクソシスト"
+        },
+        {
+          "latter": "錬金術師"
+        },
+        {
+          "latter": "記憶",
+          "latterRuby": "メモリー"
+        },
+        {
+          "latter": "エントランス"
+        },
+        {
+          "latter": "夜想曲",
+          "latterRuby": "ノクターン"
+        },
+        {
+          "latter": "手紙"
+        },
+        {
+          "latter": "戦乙女",
+          "latterRuby": "ワルキューレ"
+        },
+        {
+          "latter": "要塞",
+          "latterRuby": "プリズン"
+        },
+        {
+          "latter": "狂詩曲",
+          "latterRuby": "ラプソディ"
+        },
+        {
+          "latter": "歪曲",
+          "latterRuby": "ディストーション"
+        },
+        {
+          "latter": "矛盾",
+          "latterRuby": "パラドックス"
+        },
+        {
+          "latter": "詠唱",
+          "latterRuby": "アリア"
+        },
+        {
+          "latter": "重奏",
+          "latterRuby": "アンサンブル"
+        },
+        {
+          "latter": "即興曲",
+          "latterRuby": "アンプロンプチュ"
+        },
+        {
+          "latter": "練習曲",
+          "latterRuby": "エチュード"
+        },
+        {
+          "latter": "哀歌",
+          "latterRuby": "エレジー"
+        },
+        {
+          "latter": "聖譚曲",
+          "latterRuby": "オラトリア"
+        },
+        {
+          "latter": "追走曲",
+          "latterRuby": "カノン"
+        },
+        {
+          "latter": "協奏曲",
+          "latterRuby": "コンチェルト"
+        },
+        {
+          "latter": "交響曲",
+          "latterRuby": "シンフォニー"
+        },
+        {
+          "latter": "夜曲",
+          "latterRuby": "セレナーデ"
+        },
+        {
+          "latter": "奏鳴曲",
+          "latterRuby": "ソナタ"
+        },
+        {
+          "latter": "舟歌",
+          "latterRuby": "バルカローラ"
+        },
+        {
+          "latter": "前奏曲",
+          "latterRuby": "プレリュード"
+        },
+        {
+          "latter": "遁走曲",
+          "latterRuby": "フーガ"
+        },
+        {
+          "latter": "円舞曲",
+          "latterRuby": "ワルツ"
+        },
+        {
+          "latter": "掟"
+        },
+        {
+          "latter": "破面",
+          "latterRuby": "アランカル"
+        },
+        {
+          "latter": "懐古",
+          "latterRuby": "ノスタルジー"
+        },
+        {
+          "latter": "暗黒卿",
+          "latterRuby": "ディストピア"
+        },
+        {
+          "latter": "闘技場",
+          "latterRuby": "コロシアム"
+        },
+        {
+          "latter": "絡繰り人形"
+        },
+        {
+          "latter": "真実",
+          "latterRuby": "トゥルース"
+        },
+        {
+          "latter": "理想郷",
+          "latterRuby": "シャングリラ"
+        }
+      ]
 
     document.getElementById('button').addEventListener('click', () => {
-        const beforeNo = Math.floor( Math.random() * beforeList.length);
-        const afterNo = Math.floor( Math.random() * afterList.length);
+        const formerNo = Math.floor( Math.random() * formerList.length);
+        const latterNo = Math.floor( Math.random() * latterList.length);
 
-        const beforeElement = document.getElementById('before');
-        const beforeRubyElement = document.getElementById('beforeRuby');
-        const afterElement = document.getElementById('after');
-        const afterRubyElement = document.getElementById('afterRuby');
+        const formerElement = document.getElementById('former');
+        const latterElement = document.getElementById('latter');
+        const latterRubyElement = document.getElementById('latterRuby');
 
-        beforeElement.textContent = beforeList[beforeNo].before;
-        beforeRubyElement.textContent = beforeList[beforeNo].beforeRuby;
-        afterElement.textContent = afterList[afterNo].after;
-        afterRubyElement.textContent = afterList[afterNo].afterRuby;
+        formerElement.textContent = formerList[formerNo].former;
+        latterElement.textContent = latterList[latterNo].latter;
+        latterRubyElement.textContent = latterList[latterNo].latterRuby;
     })
 
     document.getElementById('shareTwitter').addEventListener('click', () => {
-        const beforeTitle = document.getElementById('before').textContent;
-        const afterTitle = document.getElementById('after').textContent;
+        const formerTitle = document.getElementById('former').textContent;
+        const latterTitle = document.getElementById('latter').textContent;
 
-        const tweetContent = ("劇場版名探偵コナン " + beforeTitle + "の" + afterTitle)
+        const tweetContent = ("劇場版名探偵コナン " + formerTitle + "の" + latterTitle)
         const url = "https://qiita.com/TK-C/items/c64ca54b634b0cae0059"
 
         window.location.href = ("https://twitter.com/share?url=" + url + "&text=" + tweetContent + "&count=none&lang=ja");
