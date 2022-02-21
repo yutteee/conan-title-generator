@@ -4,18 +4,28 @@
     height: 358px;
 }
 
-span {
+.of {
     font-size: 60px;
 }
 
-@font-face {
-    font-family: 'conanLogo';
-    src: url('コナンロゴ.woff') format('woff');
+.detective {
+    font-size: 60px;
+    font-weight: 900;
+    display: inline-block;
+    background: linear-gradient(180deg, rgb(209, 0, 0) 0%, #ffa600 72%, #ffea31 100%);
+    background: -webkit-linear-gradient(-90deg, rgb(209, 0, 0) 0%, #ffa600 72%, #ffea31 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0px;
+    font-style: italic;
 }
 
 .logo {
-    font-family: 'conanLogo';
-    color: #00acee;
+    color: rgb(209, 0, 0);
+    font-size: 100px;
+    -webkit-text-stroke: 3px #ffa600;
+    font-weight: 900;
+    margin: 0;
 }
 
 @font-face {
@@ -158,4 +168,12 @@ li {
     float: left;
     padding-left: 16px;
     list-style: none;
+}
+
+@media  screen and (max-width: 1024px) {
+    
+}
+
+@media  screen and (max-width: 599px) {
+    
 }
