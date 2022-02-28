@@ -560,7 +560,7 @@
         const latterTitle = document.getElementById('latter').textContent;
 
         const tweetContent = ("劇場版名探偵コナン " + formerTitle + "の" + latterTitle)
-        const url = "https://qiita.com/TK-C/items/c64ca54b634b0cae0059"
+        const url = "https://yutteee.tk/"
 
         window.location.href = ("https://twitter.com/share?url=" + url + "&text=" + tweetContent + "&count=none&lang=ja");
     })
