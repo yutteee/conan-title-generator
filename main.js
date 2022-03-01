@@ -215,7 +215,7 @@
         {
           "former": "灼熱"
         }
-      ]
+      ];
 
     const latterList = [
         {
@@ -540,7 +540,7 @@
           "latter": "理想郷",
           "latterRuby": "シャングリラ"
         }
-      ]
+      ];
 
     document.getElementById('button').addEventListener('click', () => {
         const formerNo = Math.floor( Math.random() * formerList.length);
@@ -553,14 +553,14 @@
         formerElement.textContent = formerList[formerNo].former;
         latterElement.textContent = latterList[latterNo].latter;
         latterRubyElement.textContent = latterList[latterNo].latterRuby;
-    })
+    });
 
     document.getElementById('shareTwitter').addEventListener('click', () => {
         const formerTitle = document.getElementById('former').textContent;
         const latterTitle = document.getElementById('latter').textContent;
 
-        const tweetContent = ("劇場版名探偵コナン " + formerTitle + "の" + latterTitle)
-        const url = "https://yutteee.tk/"
+        const tweetContent = ("劇場版名探偵コナン " + formerTitle + "の" + latterTitle);
+        const url = "https://yutteee.tk/";
 
         window.location.href = ("https://twitter.com/share?url=" + url + "&text=" + tweetContent + "&count=none&lang=ja");
     })
